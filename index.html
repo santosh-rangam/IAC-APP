@@ -15,7 +15,8 @@
     }
     )};
     function MyFunction(){
-      
+      ('#row2').show();
+      ('#row1').hide();
     }
   </script>
   <title>Sample Deployment</title>
@@ -51,7 +52,7 @@
 
   <ul class="nav nav-tabs">
     <li class="active"><a href="#row1">Home</a></li>
-    <li><a id="link1">Menu 1</a></li>
+    <li><a href="#" id="link1" onclick="javascript:MyFunction();">Menu 1</a></li>
     <li><a href="#">Menu 2</a></li>
     <li><a href="#">Menu 3</a></li>
   </ul>
