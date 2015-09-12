@@ -7,11 +7,14 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script type="text/javascript">
   $().ready(function(){
-    
-    )};
-    function MyFunction(){
+    ('#link1').onClick(){
       ('#row2').show();
       ('#row1').hide();
+    }
+    }
+    )};
+    function MyFunction(){
+      
     }
   </script>
   <title>Sample Deployment</title>
@@ -47,7 +50,7 @@
 
   <ul class="nav nav-tabs">
     <li class="active"><a href="#row1">Home</a></li>
-    <li><a nohref onClick="MyFunction();">Menu 1</a></li>
+    <li><a id="link1">Menu 1</a></li>
     <li><a href="#">Menu 2</a></li>
     <li><a href="#">Menu 3</a></li>
   </ul>
