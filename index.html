@@ -17,6 +17,7 @@
         appInsights.trackPageView();
     
     function MyFunction(){
+      appInsights.trackEvent("SampleEvent");
       $("#row2").show();
       $("#row1").hide();
     }
